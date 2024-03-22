@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "skill",url = "http://localhost:8092") // Remplacez SKILLSERVICE par le nom du service de compétences dans votre architecture
+@FeignClient(name = "skill",url = "http://localhost:8888") // Remplacez SKILLSERVICE par le nom du service de compétences dans votre architecture
 public interface SkillProxy {
 
     @GetMapping("/skills/{id}")

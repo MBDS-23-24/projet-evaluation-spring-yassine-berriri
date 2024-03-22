@@ -1,0 +1,12 @@
+spring:
+    cloud:
+      gateway:
+        routes:
+          - id: skills
+            uri: http://localhost:8091/
+            predicates:
+            - Path=/skills/**,/skill/**
+          - id: accounts
+            uri: http://localhost:8093/
+            predicates:
+            - Path=/positions/**,/position/**

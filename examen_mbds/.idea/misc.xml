@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/discovery" />
+    <file type="web" url="file://$PROJECT_DIR$/Gateway" />
     <file type="web" url="file://$PROJECT_DIR$/Position" />
     <file type="web" url="file://$PROJECT_DIR$/Skill" />
   </component>
