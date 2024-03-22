@@ -13,7 +13,7 @@ Le projet est structuré en deux microservices, chacun ayant sa propre responsab
 - Service Skill: Consulter les informations relatives aux compétences.
 - Service Position: Consulter les positions/postes et les compétences de chaque poste.
 
-  ### Caractéristiques techniques
+### Caractéristiques techniques
 
 - OpenFeign pour la communication entre services.
 - Spring Cloud Gateway pour le routage des requêtes.
@@ -21,7 +21,7 @@ Le projet est structuré en deux microservices, chacun ayant sa propre responsab
 - Circuit Breaker pour la tolérance aux pannes.
 - Spring Config pour la gestion centralisée de la configuration.
 
-  ### Bonnes Pratiques de Développement
+### Bonnes Pratiques de Développement
 
 Le projet suit les bonnes pratiques recommandées pour le développement de microservices, y compris :
 
